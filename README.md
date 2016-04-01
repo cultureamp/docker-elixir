@@ -1,2 +1,2 @@
 # docker-elixir
-Docker image for elixir-lang
+Docker image for elixir-lang.
