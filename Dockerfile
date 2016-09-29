@@ -1,4 +1,4 @@
-FROM elixir:latest
+FROM elixir:1.3
 
 MAINTAINER Larry Liang <larry@cultureamp.com>
 
