@@ -1,6 +1,7 @@
-FROM elixir:1.3
+FROM elixir:1.4
 
-MAINTAINER Larry Liang <larry@cultureamp.com>
+MAINTAINER Rob Jacoby <rob@cultureamp.com>
+ENV REFRESHED_AT 2017-03-24
 
 RUN apt-get update
 RUN apt-get install -y \
