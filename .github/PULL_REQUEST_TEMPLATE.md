@@ -1,7 +1,8 @@
 ## Approvals
 
 - [ ] Verified
-- [ ] @TimMoore
+- [ ] @frenchi
 - [ ] @hebbo
-- [ ] @ptolemy428
+- [ ] @vgunawan
 - [ ] @iiman
+- [ ] @robjacoby
