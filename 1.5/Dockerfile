@@ -1,11 +1,16 @@
 FROM elixir:1.5
 
 MAINTAINER David Carlin <david.carlin@cultureamp.com>
-ENV REFRESHED_AT 2017-09-22
+ENV REFRESHED_AT 2017-11-20
+
+RUN ["/bin/bash", "-c", "set -o pipefail && wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | apt-key add -"]
+
+RUN echo "deb http://apt.postgresql.org/pub/repos/apt/ trusty-pgdg main" > \
+	/etc/apt/sources.list.d/pgdg.list
 
 RUN apt-get update
 RUN apt-get install -y \
-            postgresql-client \
+            postgresql-client-9.5 \
             curl \
             wget \
             git \
